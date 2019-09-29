@@ -1,0 +1,69 @@
+1.
+La programación orientada a objetos, es una tendencia de programación que basa su resolución de problemas, 
+en la creación de los llamados objetos, que no son más que unidades que contienen una serie de características
+ y atributos a los cuales se les asignará una serie de datos para resolver el problema.
+
+
+2.
+Es una construcción que permite crear tipos personalizados propios mediante la agrupación de variables de otros tipos,
+ métodos y eventos. Una clase es como un plano. Define los datos y el comportamiento de un tipo.
+
+3.
+Los atributos son las características individuales que diferencian un objeto de otro y determinan su apariencia, 
+estado u otras cualidades.Un atributo es con frecuencia y en general una característica de una propiedad.
+sirven para definir detalles de comportamiento o presentación de la etiqueta a los que se les coloca.
+
+4.
+Son instrucciones que pueden cambiar los valores que hemos asignado a esas propiedades.Procesamiento que especifica 
+una serie de operaciones,cuyo código es definido en una clase y puede pertenecer tanto a una clase, 
+como es el caso de los métodos de clase o estáticos, como a un objeto, como es el caso de los métodos de instancia.
+ Análogamente a los procedimientos en lenguajes imperativos, un método consiste generalmente de una serie de sentencias
+ para llevar a cabo una acción, un juego de parámetros de entrada que regularán dicha acción o, posiblemente,
+ un valor de salida (o valor de retorno) de algún tipo.En otro termino aquellas funciones que permite efectuar el objeto y que nos rinden algún tipo de servicio durante el transcurso del programa.
+Determinan a su vez como va a responder el objeto cuando recibe un mensaje.
+
+5.
+Es la relación entre una clase general y otra clase mas especifica. Es un mecanismo que nos permite crear clases 
+derivadas a partir de clase base, nos permite compartir automáticamente métodos y datos entre clases subclases y objetos.
+Permite que cualquier objeto sea creado a partir de otro obejeto.La herencia (a la que habitualmente se denomina subclase)
+ proviene del hecho de que la subclase (la nueva clase creada) contiene las atributos y métodos de la clase primaria. 
+
+6.
+Es un concepto seleccionador, el caul como mecanismo permite asignar el mismo nombre a funciones distintas.En programación
+ orientada a objetos la sobrecarga se refiere a la posibilidad de tener dos o más funciones con el mismo nombre pero
+ funcionalidad diferente. Es decir, dos o más funciones con el mismo nombre realizan acciones diferentes. 
+El compilador usará una u otra dependiendo de los parámetros usados. A esto se llama también sobrecarga de funciones.
+
+7.
+el polimorfismo se refiere a la capacidad para que varias clases derivadas de una antecesora utilicen un mismo método de forma diferente.
+
+Por ejemplo, podemos crear dos clases distintas: Pez y Ave que heredan de la superclase Animal. La clase Animal tiene 
+el método abstracto mover que se implementa de forma distinta en cada una de las subclases 
+(peces y aves se mueven de forma distinta).
+
+8.
+un objeto es una unidad dentro de un programa de computadores que consta de un estado y de un comportamiento, que a su vez
+ constan respectivamente de datos almacenados y de tareas realizables durante el tiempo de ejecución.La programación orientada
+ a objetos consiste en ordenar datos en conjuntos modulares de elementos de información del mundo real (denominado un dominio). 
+Estos elementos de datos se llaman objetos. Estos datos se agrupan de acuerdo a las características principales
+ del mundo real de estos elementos (tamaño, color, etc.). 
+
+ Se crea un objeto mediante la creación de un objeto de una clase o, en otras palabras, ejemplarizando una clase
+Date hoy = new Date();
+Esta sentencia crea un objeto Date (Date es una clase del paquete java,util). Esta sentencia realmente realiza tres acciones
+: declaración, ejemplarización e inicialización.
+Date hoy es una declaración de variable que sólo le dice al compilador que el nombre hoy se va a utilizar para
+ referirse a un objeto cuyo tipo es Date, el operador new ejemplariza la clase Date (creando un nuevo objeto Date), 
+y Date() inicializa el objeto.
+
+
+
+17.
+
+Es una extensión PHP a través de la cual podemos acceder y trabajar con bases de datos,una interfaz para acceder a bases 
+de datos en PHP sin vincular el código a una base de datos específica. En lugar de llamar directamente a las funciones
+ mysql_ , mysqli_ y pg_ , los desarrolladores pueden usar la interfaz PDO, simplificando la transferencia de aplicaciones
+ a otras bases de datos.
+.Está mejor protegido contra hackers.
+.Es coherente en todas las bases de datos, por lo que puede funcionar con MySQL, así como con otros tipos de bases de datos (SQLite, Oracle, PostgreSQL, etc.)
+.Está orientado a objetos en su núcleo.
